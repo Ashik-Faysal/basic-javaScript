@@ -1,0 +1,19 @@
+//  তোমার কাছে: ৮০০০০ টাকার বেশি হলে তুমি mac কিনবে, ৬০ টাকার বেশি হলে gaming ল্যাপটপ কিনবে, 80 হাজার টাকার বেশি হলে lenovo yoga কম্পিউটার কিনবে , ২০ হাজার টাকার বেশি হলে পুরান ল্যাপটপ কিনবে। না হয় তুমি মোবাইল দিয়ে কাজ চালাবে।
+
+var myMoney = 50000;
+
+if (myMoney > 80000) {
+    console.log("Bay a Mac");
+}
+else if (myMoney > 60000) {
+    console.log("Bay a gaming Laptop");
+}
+else if (myMoney > 40000) {
+    console.log("Bay a lenovo yoga computer");
+}
+else if (myMoney > 20000) {
+    console.log("Bay a old laptop");
+}
+else {
+    console.log("work on my old mobile")
+}
